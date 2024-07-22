@@ -1,6 +1,7 @@
 //***************** Primitive DataTypes **************** 
 
-// 7 => String,Number,Boolearn,Null,undefined,Symbol,BigInt
+// 7 => String,Number,Boolearn,Null,undefined,Symbol,BigInt //
+
 const score = 100
 const scoreValue = 100.3
 
@@ -34,3 +35,21 @@ console.log (typeof outsideTemp) ;
 console.log(typeof scoreValue);
 console.log(typeof anotherId);
 
+// Stack Memoey(Primitive), Heap (Non Primitive)
+
+let myYoutubename = "tanujapatilcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@ggle.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+ userTwo.email = "tanuja@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
