@@ -1,27 +1,27 @@
 //let score = 33
-//let score = "33"
-//let score = "33abc"
-//let score = null
-//let score = undefined
-//let score = true
+let score = "33"
+// let score = "33abc"
+// let score = null
+// let score = undefined
+// let score = true
 
 
-// console.log(typeof score);
-// console.log(typeof (score));
+console.log(typeof score);
+console.log(typeof (score));
 
-// let valueInNumber = Number(score)
-// console.log(typeof valueInNumber)
-//console.log(valueInNumber);
+let valueInNumber = Number(score) //by using anoher key we can change the type (let valueNUmber = number(score)) the check the (typof valueNumber) 
+console.log(typeof valueInNumber)
+console.log(valueInNumber);
 
-// let isLoggedIn = "Tanuja"
+let isLoggedIn = "Tanuja"
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn);
-// let someNumber = 33
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
+let someNumber = 33
 
-// let stringNumber = String(someNumber)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
 
 //*******************Operations*******************//
 

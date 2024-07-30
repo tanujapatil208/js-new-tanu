@@ -4,25 +4,25 @@ const myArr = [0, 1, 2, 3, 4, 5]
 const myHeors = ["Yuvraj", "Swapnil"]
 
 const myArr2 = new Array(1, 2, 3, 4)
-// console.log(myArr[1]);
+console.log(myArr[1]); // 1 anser al kaean array start from 0.
 
 //****************************** Array methods **************************** 
 
-// myArr.push(6)
-// myArr.push(7)// add the number to the given given aray
-// myArr.pop() // remove last value from the array 
+ myArr.push(6)
+ myArr.push(7)// add the number to the given array
+myArr.pop() // remove last value from the array 
 
 
-//myArr.unshift(5) //add the value in the starting.
-//myArr.shift()//  the value in the
+myArr.unshift(5) //add the value in the starting.
+myArr.shift()//  the value in the
 
-// console.log(myArr.includes(4));
-// console.log(myArr.indexOf(3));
+console.log(myArr.includes(4));
+console.log(myArr.indexOf(3)); // staing from 0 .
 
-// const newArr = myArr.join()
+const newArr = myArr.join()
 
-// console.log(myArr);
-// console.log(typeof newArr);
+console.log(myArr);
+console.log(typeof newArr);
 
 //slice , splice
 

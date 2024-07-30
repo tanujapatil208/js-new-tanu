@@ -23,7 +23,7 @@ const hundreds = 1000000
 // console.log(Math.min(1,2,3,4));
 // console.log(Math.max(3,4,5,6));
 
-console.log(Math.random());
-console.log(Math.random()*10);
+console.log(Math.random());// kontihi value ghet(less then 1 (0.4654/0.6536637))
+console.log(Math.random()*10); // kontihi value ghet ani divide kart 10.(0.43762578*10 = -------)
 
 

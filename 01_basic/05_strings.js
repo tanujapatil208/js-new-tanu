@@ -1,13 +1,13 @@
 const name = "Tanuja"
 const repoCount = 50
 
-console.log(name + repoCount + "value");
+console.log(name + repoCount + "value"); // connect as the keys is one line(Tanuja50value)
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);// to add some keysvalue is statments we use ${name/----}/${repoCount}
 
 const gameName = new String('Tanuja_Tp')
 
-console.log(gameName[0]);
+console.log(gameName[0]);// gives the first charater of string
 console.log(gameName.__proto__);
 
 
@@ -15,9 +15,9 @@ console.log(gameName.__proto__);
 console.log(gameName.length);
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
-console.log(gameName.indexOf('T'));
+console.log(gameName.indexOf('T'));// gives the latter position(Tanuja:-gameName.indexod('a') answer:- 2]))
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4) // gives the latters in between((0,4):- tanuja  answer:-(tanu))
 console.log(newString);
 const anotherString = gameName.slice(-8, 4)
 console.log(anotherString);

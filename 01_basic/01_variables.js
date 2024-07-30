@@ -1,5 +1,5 @@
-const accountId = 1234567
-let accountEmail = "Tanuja@0000google.com"
+const accountId = 1234567 // values change karu shakat nahi using const.
+let accountEmail = "Tanuja@0000google.com" 
 var accountPassword = "121212"
 accointCity = "Latur"
 //above is also variable//

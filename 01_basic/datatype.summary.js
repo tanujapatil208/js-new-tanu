@@ -22,7 +22,7 @@ const bigNumber = 25534364572634562763n    //  (n) means BigInt
 
 
 const heros = ["shaktiman","naagraj","doga"]
-let myObj = {
+let myObj = {          // object create kel myObj navch.
 name : "Tanuja",
 age : 23,
 }
@@ -30,26 +30,26 @@ age : 23,
 const myFunction = function(){
     console.log("Hello World");
 } 
-console.log(typeof bigNumber);
-console.log (typeof outsideTemp) ;
-console.log(typeof scoreValue);
-console.log(typeof anotherId);
+console.log(typeof bigNumber); // number type ahe
+console.log (typeof outsideTemp) ; //nullcha typeof "object" ahe
+console.log(typeof scoreValue); // 100.3 typeof "number" ahe
+console.log(typeof anotherId); // "symbol" typeof ahe
 
 // Stack Memoey(Primitive), Heap (Non Primitive)
 
 let myYoutubename = "tanujapatilcom"
 let anothername = myYoutubename
-anothername = "chaiaurcode"
+anothername = "chaiaurcode"  
 
 console.log(myYoutubename);
-console.log(anothername);
+console.log(anothername); // string asel tr techa ghet  asel tr nnather je string ahe te ghet
 
 let userOne = {
     email: "user@ggle.com",
     upi: "user@ybl"
 }
 let userTwo = userOne
- userTwo.email = "tanuja@google.com"
+ userTwo.email = "tanuja@google.com"  // updated values ghet te 
 
- console.log(userOne.email);
+ console.log(userOne.email); // updated values ghet te (je lastla difine kel te.)
  console.log(userTwo.email);
